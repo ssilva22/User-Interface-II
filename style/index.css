@@ -1,1 +1,198 @@
 /* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*
+FORMATTING
+
+font-family: 'Comfortaa', cursive;
+font-family: 'Roboto Mono', monospace;
+*/
+html{
+    background-color: #118ab2;
+}
+h1{
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 28px;
+    padding: 1em;
+}
+
+nav{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    padding-bottom: 1.5em;
+    text-decoration: none;
+    
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+nav button{
+   margin: -.4em;
+   color: black;
+   background-color: white;
+   padding: .5em;
+}
+
+nav button:hover , nav a:hover{
+    background-color: black;
+    color: white;
+}
+.introduction{
+    display: flex;
+    flex-flow: column;
+    padding: 1em;
+}
+h2{
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 22px;
+    padding: 1em;
+}
+
+p{
+    display: flex;
+    text-align: center;
+    font-family: 'Comfortaa';
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin:0 10em;
+}
+
+
+/*-------------------------------FOOTER----------------------------------*/
+footer{
+    background-color: teal;
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}
+
+.img-container{
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+/* ----------------------------------------------- */
+/* MEALS */
+/* ----------------------------------------------- */
+
+.section-meals {
+    padding: 0;
+}
+
+.meals-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.meals-showcase li {
+    display: inline-block;
+    float: left;
+    width: 25%;
+}
+
+.meal-photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.meal-photo img {
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    -webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    transform: scale(1.15);
+    -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.meal-photo img:hover {
+    opacity: 1;
+    -webkit-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    transform: scale(1.03);
+}
+
+
+
+/* ----------------------------------------------- */
+/* HOW IT WORKS SECTION */
+/* ----------------------------------------------- */
+
+/*---------------====LIKE-WHAT-YOU-SEE?====-------------------------------*/
+.separate{
+    margin-bottom: 32em;
+}
+
+.footer-button{
+    padding: 2em;
+}
+.footer-button button{
+    height: 4em;
+    background-color: white;
+}
+
+.footer-button button:hover,.footer-button a:hover{
+    background-color: black;
+    color: white;
+}
+
+footer h2{
+    text-align: center;
+}
